@@ -71,9 +71,9 @@ with open('BrexitTweets.json','r') as json_file:
             # Create a list with all the terms 
             #terms_all = [term for term in tokens ]
             # Create a list with all the terms + non stop
-            terms_all = [term for term in tokens if term not in stop]
+            #terms_all = [term for term in tokens if term not in stop]
             # Create a list with all the terms + non stop + new punctuation
-            #terms_all = [term for term in tokens if term not in new_stop]
+            terms_all = [term for term in tokens if term not in new_stop]
             # Create a list with only hashtags
             terms_hash = [term for term in tokens if term.startswith('#')]
             # Create a list with all preprocessed terms except hashtags nor mentions
