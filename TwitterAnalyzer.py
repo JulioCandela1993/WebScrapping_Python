@@ -93,7 +93,7 @@ with open('BrexitTweets.json','r') as json_file:
     for word, index in count_hashtags.most_common(10):
         print ('%s : %s' % (word, index))
     # Most Common Tokens without Hashtags or Mentions
-    print("\nTop 10 Hashtags")
+    print("\nTop 10 No Hashtags nor mentions")
     for word, index in count_no_hashtags.most_common(10):
         print ('%s : %s' % (word, index))      
         
