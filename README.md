@@ -34,6 +34,6 @@
 ![Image of EC2](Images/3.2.6_Itemsets.PNG)
 
 ### 7. Results: TOP 10 words, TOP 10 hashtags, TOP 10 tokens without mentions nor hashtags
-- Interesting to see that the most appears consistent between the three different scenarios, but the following ones change depending whether it's a hashtag or so.
-For example, "#coronavirus" is the second most mentioned hashtag, though it doesn't appear in the other two scenarios due to its low mentioning on the hashtags.
+- Interesting to see that the most common word "brexit" appears consistent between the three different scenarios, but the following ones change depending whether it's a hashtag or so. What's surprising is that there are other words not related to Brexit, like 'breakfast' and 'beans', which also appear as the most used words.
+- Other two words that have a good correlation to Brexit appear to be 'patriotic' and 'trade'. Probably two subjects that are heavily mentioned when referencing to Brexit.
 ![Image of EC2](Images/3.2.7_Results.PNG)
