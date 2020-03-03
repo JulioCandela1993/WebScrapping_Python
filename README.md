@@ -19,6 +19,7 @@
 ![Image of EC2](Images/3.2.2_TwitterTokens.PNG)
 
 ### 3. Get the result of the common words without preprocessing
+- Due to the high amount of punctuations, we require to apply preprocessing to drop the punctuations.
 ![Image of EC2](Images/3.2.3_FrequentTokens.PNG)
 
 ### 4. Drop some stop words 
@@ -33,4 +34,6 @@
 ![Image of EC2](Images/3.2.6_Itemsets.PNG)
 
 ### 7. Results: TOP 10 words, TOP 10 hashtags, TOP 10 tokens without mentions nor hashtags
+- Interesting to see that the most appears consistent between the three different scenarios, but the following ones change depending whether it's a hashtag or so.
+For example, "#coronavirus" is the second most mentioned hashtag, though it doesn't appear in the other two scenarios due to its low mentioning on the hashtags.
 ![Image of EC2](Images/3.2.7_Results.PNG)
