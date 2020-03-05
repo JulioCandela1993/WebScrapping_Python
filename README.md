@@ -63,7 +63,7 @@ Due to a recent immigration policy set by Turkey were they opened the borders fo
 ![Image of 3_3_1](Images/3.4_Diag_FrequentNoHashtags_Proposal.PNG)
 
 ### 2. Bar Chart of frequent hashtags:
-The hashtags have the same relation to the news previously explained. They mention Turkey's president "#erdogan", a town in Siria "Idlib" and even the involvement with "#russia".
+The hashtags have the same relation to the news previously explained. They mention Turkey's president "#erdogan", a town in Siria "Idlib" and even the involvement with "#russia". You can even note support for Greece from some tweets with the hashtags "#istandwithgreece" and "#greecedefendseurope".
 ![Image of 3_3_2](Images/3.4_Diag_FrequentHashtags_Proposal.PNG)
 
 #### Q35:
