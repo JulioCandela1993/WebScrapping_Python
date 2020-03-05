@@ -37,4 +37,5 @@ auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 
 twitter_stream = Stream(auth, MyListener())
-twitter_stream.filter(track=['Turkey'])
+twitter_stream.filter(track=['Turkey'])  
+
