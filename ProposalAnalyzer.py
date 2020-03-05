@@ -56,7 +56,7 @@ def preprocess(s, lowercase=False):
     return tokens
 
 
-with open('NetflixTweets.json','r') as json_file:
+with open('TurkeyTweets.json','r') as json_file:
     count_all = Counter()
     count_hashtags = Counter()
     count_no_hashtags = Counter()
@@ -113,7 +113,7 @@ plt.axis('tight')
 
 #plt.show()                  # show it on IDE
 
-plt.savefig('Images/3.3_Diag_FrequentNoHashtags_Proposal.PNG')  
+plt.savefig('Images/3.4_Diag_FrequentNoHashtags_Proposal.PNG')  
 plt.show()
 ## Frequent Hashtags
 
@@ -126,7 +126,7 @@ plt.axis('tight')
 
 #plt.show()                  # show it on IDE
 
-plt.savefig('Images/3.3_Diag_FrequentHashtags_Proposal.PNG')         
+plt.savefig('Images/3.4_Diag_FrequentHashtags_Proposal.PNG')         
 plt.show()       
         
         
