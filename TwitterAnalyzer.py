@@ -98,7 +98,35 @@ with open('BrexitTweets.json','r') as json_file:
         print ('%s : %s' % (word, index))      
         
         
-        
+import matplotlib as mpl
+mpl.rcParams['figure.figsize'] = (6,6)
+import matplotlib.pyplot as plt
+
+## Frequent words withour hashtags or mentions
+
+sorted_x, sorted_y = zip(*count_no_hashtags.most_common(15))
+print(sorted_x, sorted_y)
+
+plt.bar(range(len(sorted_x)), sorted_y, width=0.75, align='center')
+plt.xticks(range(len(sorted_x)), sorted_x, rotation=60)
+plt.axis('tight')
+
+plt.show()                  # show it on IDE
+
+plt.savefig('Images/3.3_Diag_FrequentNoHashtags.png')  
+
+## Frequent Hashtags
+
+sorted_x, sorted_y = zip(*count_hashtags.most_common(15))
+print(sorted_x, sorted_y)
+
+plt.bar(range(len(sorted_x)), sorted_y, width=0.75, align='center')
+plt.xticks(range(len(sorted_x)), sorted_x, rotation=60)
+plt.axis('tight')
+
+plt.show()                  # show it on IDE
+
+plt.savefig('Images/3.3_Diag_FrequentHashtags.png')         
         
         
         
