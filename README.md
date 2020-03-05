@@ -55,12 +55,19 @@
 
 ![Image of 3_3_2](Images/3.3_Diag_FrequentHashtags.PNG)
 
-## Task 3.4
+## Task 3.4 " Turkey"
 For the proposal, we found an interesting topic about an immigration incident happening in Turkey.
 ### 1. Bar Chart of frequent words after pre processing (without hashtags or mentions):
-
+Due to a recent immigration policy set by Turkey were they opened the borders for immigrants to croos to Europe through Greace, there's a big conflict going on in between both countries. That most probably is the reason for the words we see within the graphs.
+"Assad" can be related to the Sirian president, due to the attack that Turkey launched against Siria few days ago. So as expected, all of the words related to Turkey are related to these recent news of the countries involvement.
 ![Image of 3_3_1](Images/3.4_Diag_FrequentNoHashtags_Proposal.PNG)
 
 ### 2. Bar Chart of frequent hashtags:
-
+The hashtags have the same relation to the news previously explained. They mention Turkey's president "#erdogan", a town in Siria "Idlib" and even the involvement with "#russia".
 ![Image of 3_3_2](Images/3.4_Diag_FrequentHashtags_Proposal.PNG)
+
+#### Q35:
+We've been working on this session for around 5 complete hours.
+Issues that arose while working were related mostly to the data pre-processing for extracting the tokens from the tweets. Some of the topics selected for search before were "Netflix" and "Mexico". They gave good insights of the movies or series trending in Netflix, like "Beauty and the Beast", or strong topics in Mexico like the coronavirus case.
+Due to that data extracted, we had to implement filtering on stopwords for more languages, like Spanish and even Chinese symbols. Furthermore, we found some special characters that were not readable and we were unable to identify. 
+Thus decided to change topic and search for something trending globally, like the Turkey immigration and attacks news.
