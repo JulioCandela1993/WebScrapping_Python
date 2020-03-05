@@ -45,3 +45,10 @@
 - Other two words that have a good correlation to Brexit appear to be 'patriotic' and 'trade'. Probably two subjects that are heavily mentioned when referencing to Brexit.
 
 ![Image of EC2](Images/3.2.7_Results.PNG)
+
+## Task 3.3
+### 1. Bar Chart of frequent words after pre processing (without hashtags or mentions):
+![Image of EC2](Images/3.3_Diag_FrequentNoHashtags.png)
+
+### 2. Bar Chart of frequent hashtags:
+![Image of EC2](Images/3.3_Diag_FrequentHashtags.png)
