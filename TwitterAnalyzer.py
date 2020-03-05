@@ -111,9 +111,9 @@ plt.bar(range(len(sorted_x)), sorted_y, width=0.75, align='center')
 plt.xticks(range(len(sorted_x)), sorted_x, rotation=60)
 plt.axis('tight')
 
-plt.show()                  # show it on IDE
+#plt.show()                  # show it on IDE
 
-plt.savefig('Images/3.3_Diag_FrequentNoHashtags.png')  
+plt.savefig('Images/3.3_Diag_FrequentNoHashtags.PNG')  
 
 ## Frequent Hashtags
 
@@ -124,9 +124,9 @@ plt.bar(range(len(sorted_x)), sorted_y, width=0.75, align='center')
 plt.xticks(range(len(sorted_x)), sorted_x, rotation=60)
 plt.axis('tight')
 
-plt.show()                  # show it on IDE
+#plt.show()                  # show it on IDE
 
-plt.savefig('Images/3.3_Diag_FrequentHashtags.png')         
+plt.savefig('Images/3.3_Diag_FrequentHashtags.PNG')         
         
         
         
