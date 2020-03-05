@@ -49,8 +49,8 @@
 ## Task 3.3
 ### 1. Bar Chart of frequent words after pre processing (without hashtags or mentions):
 
-![Image of EC2](Images/3.3_Diag_FrequentNoHashtags.PNG)
+![Image of 3_3_1](Images/3.3_Diag_FrequentNoHashtags.PNG)
 
 ### 2. Bar Chart of frequent hashtags:
 
-![Image of EC2](Images/3.3_Diag_FrequentHashtags.PNG)
+![Image of 3_3_2](Images/3.3_Diag_FrequentHashtags.PNG)
