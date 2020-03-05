@@ -50,11 +50,12 @@
 ### 1. Bar Chart of frequent words after pre processing (without hashtags or mentions):
 
 - Similar to the analysis previously done, we see that the most common word mentioned is 'Brexit', both for text (without hashtags and mentions) and hashtags. Moreover, there are words as breakfast, sausage, baked which according to our research are part of how citizens ironically use when talking about the "Brexit"
-- There are 2 hashtags which call attention: "#johnson" and "#dumbfounded". "Johnson" probably referring to the prime minister. Could it be that "#dumbfounded" is also referring to him?
 
 ![Image of 3_3_1](Images/3.3_Diag_FrequentNoHashtags.PNG)
 
 ### 2. Bar Chart of frequent hashtags:
+
+- There are 2 hashtags which call attention: "#johnson" and "#dumbfounded". "Johnson" probably referring to the prime minister. Could it be that "#dumbfounded" is also referring to him?
 
 ![Image of 3_3_2](Images/3.3_Diag_FrequentHashtags.PNG)
 
